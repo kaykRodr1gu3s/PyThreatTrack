@@ -1,6 +1,6 @@
 import requests
 from Tools import abuseIp
-from Tools import csv_transformer
+from Tools import csv_creator
 
 class virustotal_search:
     def __init__(self):
@@ -37,7 +37,7 @@ class virustotal_search:
                 dict_datas[key] = response['data']['attributes']['last_analysis_stats'][key]
             
             list_to_csv.append(dict_datas)
-
+        print(list_to_csv)
         return list_to_csv
         
 
@@ -45,6 +45,7 @@ virustotal = virustotal_search()
 datas_to_csv = virustotal.search()
 
 
-csv = csv_transformer.csv_creator()
-csv.datas_to_csv(datas_to_csv)
+csv = csv_creator.csv_creator()
+dir_name = csv.verifing_directory("ip_file")
+csv.datas_to_csv(dir_name,datas_to_csv)
         
