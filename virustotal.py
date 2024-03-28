@@ -1,6 +1,6 @@
 import requests
-from Tools import abuseIp
-from Tools import virustotal_csv_creator
+from Tools import ips
+from Tools.csv_creators import virustotal_csv_creator
 
 class virustotal_search:
     def __init__(self, API_KEY):
@@ -11,7 +11,7 @@ class virustotal_search:
     "x-apikey": API_KEY
                         }
         
-        self.abuseIP = abuseIp.Ips_class()
+        self.abuseIP = ips.Ips_class()
         self.page_content = self.abuseIP.abuseip_request()
         self.ip_list = self.abuseIP.getting_ip_list(self.page_content)
 
