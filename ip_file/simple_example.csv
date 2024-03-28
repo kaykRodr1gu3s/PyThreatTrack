@@ -1,0 +1,2 @@
+,ipAddress,isPublic,ipVersion,isWhitelisted,abuseConfidenceScore,countryCode,usageType,isp,domain,hostnames,isTor,totalReports,numDistinctUsers,lastReportedAt
+0,95.214.53.99,True,4,False,100,PL,Data Center/Web Hosting/Transit,MEVSPACE sp. z o.o.,mevspace.com,[],False,1178,157,2024-03-28T17:45:57+00:00
