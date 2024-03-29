@@ -1,6 +1,6 @@
 import requests
 from Tools.csv_creators import CSVprocessor
-from Tools import ips
+from Tools.IPTracker import ips
 
 class abuseipapi:
     def __init__(self, API) -> None:
