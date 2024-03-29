@@ -1,6 +1,6 @@
 import requests
 from Tools import ips
-from Tools.csv_creators import virustotal_csv_creator
+from Tools.csv_creators import CSVprocessor
 
 class virustotal_search:
     def __init__(self, API_KEY):
@@ -44,8 +44,7 @@ class virustotal_search:
 virustotal = virustotal_search(API_KEY="API KEY")
 datas_to_csv = virustotal.search()
 
-
-csv = virustotal_csv_creator.csv_creator()
-dir_name = csv.verifing_directory("ip_file")
-csv.datas_to_csv(dir_name,datas_to_csv)
+csv = CSVprocessor.abuseip("virustotal_result_ips.csv")
+dir_name = csv.verifing_directory()
+csv.appending_datas(dir_name,datas_to_csv)
         
