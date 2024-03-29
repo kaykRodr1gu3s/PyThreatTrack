@@ -1,0 +1,21 @@
+,ipAddress,isPublic,ipVersion,isWhitelisted,abuseConfidenceScore,countryCode,usageType,isp,domain,hostnames,isTor,totalReports,numDistinctUsers,lastReportedAt
+0,162.216.149.140,True,4,False,100,US,Data Center/Web Hosting/Transit,Google LLC,google.com,['140.149.216.162.bc.googleusercontent.com'],False,3370,88,2024-03-29T00:14:57+00:00
+1,150.109.13.165,True,4,False,100,SG,Data Center/Web Hosting/Transit,Tencent Cloud Computing (Beijing) Co. Ltd.,tencent.com,[],False,1477,531,2024-03-29T00:17:16+00:00
+2,198.199.101.120,True,4,False,100,US,Data Center/Web Hosting/Transit,DigitalOcean LLC,digitalocean.com,['apzg-0727-m-122.stretchoid.com'],False,522,90,2024-03-29T00:14:57+00:00
+3,64.62.197.151,True,4,False,100,US,Data Center/Web Hosting/Transit,The Shadow Server Foundation,shadowserver.org,"['151.0-24.197.62.64.in-addr.arpa', 'scan-48o.shadowserver.org']",False,2078,150,2024-03-29T00:17:06+00:00
+4,127.0.0.1,False,4,False,0,,Reserved,Loopback,,['localhost'],False,2772,211,2024-03-29T00:14:57+00:00
+5,188.166.105.120,True,4,False,100,NL,Data Center/Web Hosting/Transit,DigitalOcean LLC,digitalocean.com,[],False,2392,670,2024-03-29T00:14:57+00:00
+6,185.11.61.88,True,4,False,100,GB,Data Center/Web Hosting/Transit,Starcrecium Limited,starcrecium.com,[],False,10736,349,2024-03-29T00:18:18+00:00
+7,43.159.142.70,True,4,False,100,US,Data Center/Web Hosting/Transit,Tencent Cloud Computing (Beijing) Co. Ltd.,tencent.com,[],False,1164,461,2024-03-29T00:16:00+00:00
+8,150.95.27.232,True,4,False,100,TH,Data Center/Web Hosting/Transit,Zcom Thai EP,cnode.io,['v150-95-27-232.a00e.g.bkk1.static.cnode.io'],False,2471,704,2024-03-29T00:14:57+00:00
+9,110.45.145.194,True,4,False,100,KR,Data Center/Web Hosting/Transit,LG DACOM KIDC,kidc.net,[],False,3283,769,2024-03-29T00:14:57+00:00
+10,185.56.151.243,True,4,False,90,DE,Data Center/Web Hosting/Transit,Strato AG,strato.de,['ip185-56-151-243.pbiaas.com'],False,44,20,2024-03-29T00:14:57+00:00
+11,185.45.212.231,True,4,False,100,SA,,Integrated Communications Company Limited,itc.sa,[],False,3147,748,2024-03-29T00:14:57+00:00
+12,47.128.34.184,True,4,False,41,SG,Data Center/Web Hosting/Transit,Amazon Data Services Singapore,amazon.com,['ec2-47-128-34-184.ap-southeast-1.compute.amazonaws.com'],False,27,8,2024-03-29T00:14:57+00:00
+13,211.210.152.106,True,4,False,100,KR,Fixed Line ISP,SK Broadband Co Ltd,skbroadband.com,[],False,193,131,2024-03-29T00:14:56+00:00
+14,78.135.85.201,True,4,False,100,TR,Commercial,Hosting Dunyam Bilisim Teknolojileri Tic. Ltd. Sti.,hostingdunyam.net,['rdns.hostingdunyam.net'],False,3124,784,2024-03-29T00:14:56+00:00
+15,35.203.210.127,True,4,False,100,GB,Data Center/Web Hosting/Transit,Google LLC,google.com,['127.210.203.35.bc.googleusercontent.com'],False,531,43,2024-03-29T00:14:56+00:00
+16,218.92.0.31,True,4,False,100,CN,Data Center/Web Hosting/Transit,ChinaNet Jiangsu Province Network,chinatelecom.com.cn,[],False,83446,532,2024-03-29T00:18:09+00:00
+17,193.32.162.89,True,4,False,100,NL,Data Center/Web Hosting/Transit,Pptechnology Limited,dmzhost.co,[],False,1987,118,2024-03-29T00:14:56+00:00
+18,149.129.67.202,True,4,False,100,HK,Data Center/Web Hosting/Transit,AliCloud,alicloud.com,[],False,3169,758,2024-03-29T00:14:56+00:00
+19,89.109.15.20,True,4,False,100,RU,Fixed Line ISP,OJSC VolgaTelecom,vt.ru,['89-109-15-20.static.mts-nn.ru'],False,522,174,2024-03-29T00:18:24+00:00
