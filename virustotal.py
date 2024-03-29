@@ -1,5 +1,5 @@
 import requests
-from Tools import ips
+from Tools.IPTracker import ips
 from Tools.csv_creators import CSVprocessor
 
 class virustotal_search:
